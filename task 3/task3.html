@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<body>
+   
+            <table border="1" >
+                
+                    <tr>
+                        <td> 
+                            this is a paragraph <br>
+                            this is paragraph two
+                        </td>
+                        <td>
+                            <img src="../facebook.png" alt="" width="200">
+                        </td>
+                        <td>
+                            <iframe src="https://wikipedia.org/" width="400" height="500"></iframe>
+                        </td>
+                        <td>
+                            <video src="../task 3/باي يا خيبة أنا مش مسامح في الساندوتش(360P).mp4" width="400" controls></video>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <audio controls>
+                                <source src="سورة الأنعام كاملة ... تلاوة عذبة بصوت الشيخ ماهر المعيقلي(MP3_128K).mp3" type="audio/mpeg">
+
+                            </audio>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                
+                <form action="thankyou.html" method="post">
+                    <fieldset>
+                        <legend>Registraction form </legend>
+                        <label for="firstname">firstname:</label>
+                        <input type="text" id="firstname" name="firstname" required><br>
+                        <label for="lastname">lastname :</label>
+                        <input type="text" id="lastname" name="lastname" required><br>
+                        <label for="password" >password:</label>
+                        <input type="password" id="password" name="password" required min="4" max="10"><br>
+                        <label for="repeatpassword">repeatpassword:</label>
+                        <input type="password" id="repeatpassword" name="repeatpassword" required min="4"  max="10"><br>
+                        <label for="userpicture">User picture:</label>
+                      <input type="file" id="userpicture" name="userpicture">
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Gender:
+
+                        </legend>
+                        <input type="radio" id="male" name="Gender" value="Male">
+                        <label for="male">Male</label><br>
+                        
+                        <input type="radio" id="female" name="Gender" value="Female">
+                        <label for="female">Female</label>
+                    </fieldset><br>
+                    <label for="faculty">Faculty:</label>
+                    <select name="faculty" id="faculty">
+                        <option value="IT">IT</option>
+                        <option value="IS">IS</option>
+                        <option value="CS">CS</option>
+                    </select><br>
+                    <fieldset>
+                        <legend>Intereste:</legend>
+                        <input type="checkbox"id="programing" name="Intereste"value="programing">
+                        <label for="programing">programing</label><br>
+                        <input type="checkbox"id="reading" name="reading"value="reading">
+                        <label for="reading">reading</label><br>
+                        <input type="checkbox"id="swimming" name="swimming"value="swimming">
+                        <label for="swimming">swimming</label>
+                    </fieldset><br>
+                    <label for="about">About You:</label><br>
+                    <textarea name="about" id="about"rows="4" cols="50"></textarea><br>
+                    <button type="submit">submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+        
+   
+</body>
+</html>
